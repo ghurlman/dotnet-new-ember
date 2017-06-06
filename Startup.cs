@@ -54,7 +54,7 @@ namespace dotnet_new_ember
       {
         context.People.Add(new Person
         {
-          Name = "John Doe"
+          Name = "Tomster"
         });
         context.SaveChanges();
       }
