@@ -1,1 +1,5 @@
-{{yield}}
+<ul>
+  {{#each model as |person|}}
+    <li>{{person.name}}</li>
+  {{/each}}
+</ul>
