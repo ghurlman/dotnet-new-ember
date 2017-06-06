@@ -9,7 +9,6 @@ using Microsoft.Extensions.Logging;
 
 namespace dotnet_new_ember.Controllers
 {
-  [Route("api/[controller]")]
   public class PeopleController : JsonApiController<Person>
 
   {
